@@ -7,7 +7,7 @@
     <groupId>is</groupId>
     <artifactId>vidmot</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Verkefni 3</name>
+    <name>Lokaverkefni-hugbunadar</name>
     <licenses>
         <license>
             <name>MIT</name>
@@ -54,6 +54,7 @@
                 <configuration>
                     <source>11</source>
                     <target>11</target>
+
                 </configuration>
             </plugin>
             <plugin>
@@ -104,5 +105,6 @@
                 <version>3.7.1</version>
             </plugin>
         </plugins>
+
     </build>
 </project>
