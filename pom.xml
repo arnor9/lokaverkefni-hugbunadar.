@@ -8,7 +8,12 @@
     <artifactId>vidmot</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Verkefni 3</name>
-
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>LICENSE</url>
+        </license>
+    </licenses>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.9.1</junit.version>
@@ -94,6 +99,10 @@
                             <mainClass>is.vidmot.TakeAwayApplication</mainClass>
                         </configuration>
                     </plugin>
+            <plugin>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
         </plugins>
     </build>
 </project>
